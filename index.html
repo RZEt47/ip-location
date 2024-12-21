@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.b532600b.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/style.49a12ebf.css">
+    <title>Frontend Mentor | IP Address Tracker</title></head>
+<body>
+<div class="finder"><h1 class="title"> IP Address Tracker</h1>
+    <div class="search-bar"><input class="search-bar__input" type="text"
+                                   placeholder="Search for any IP address or domain">
+        <button class="search-bar__btn"></button>
+    </div>
+    <div class="info">
+        <div class="info__block">
+            <div class="info__block-subtitle">IP Address</div>
+            <div class="info__block-title" id="ip"></div>
+        </div>
+        <div class="info__block">
+            <div class="info__block-subtitle">Location</div>
+            <div class="info__block-title" id="location"></div>
+        </div>
+        <div class="info__block">
+            <div class="info__block-subtitle">Timezone</div>
+            <div class="info__block-title">UTC <span id="timezone"></span></div>
+        </div>
+        <div class="info__block">
+            <div class="info__block-subtitle">ISP</div>
+            <div class="info__block-title" id="isp"></div>
+        </div>
+    </div>
+</div>
+<div id="map" style="width:100%;height:450px"></div>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=b763d1b1-5a28-405c-b10c-cedfbb851068&lang=ru_RU"></script>
+<script src="/src.a2a23f9e.js"></script>
+</body>
+</html>
